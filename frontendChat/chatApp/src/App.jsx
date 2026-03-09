@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 import { io } from "socket.io-client";
-const socket = io("http://localhost:3000");
+const socket = io("https://group-chat-app-wbxu.onrender.com");
 
 
 const App = () => {
